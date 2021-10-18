@@ -1,0 +1,27 @@
+{
+  "name": "my-test-project",
+  "version": "1.0.0",
+  "description": "Project to test OSS patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.ifoodcorp.com.br/ifood/platform-engineering/furnace-generation-test/my-test-project"
+  },
+  "keywords": [
+    "oss",
+    "ifood"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@ifood/commitlint-config": "^2.0.0",
+    "@ifood/cz-conventional-changelog": "^2.0.0",
+    "husky": "^7.0.0",
+    "commitizen": "^4.1.2"
+  },
+  "author": "everton.tavares@ifood.com.br",
+  "license": "ISC"
+}
