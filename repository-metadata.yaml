@@ -1,0 +1,23 @@
+apiVersion: ifood/v2
+kind: Repository
+tags:
+  - test
+metadata:
+  costCenter: platform
+  tribe: platform
+  squad: standards
+  team:
+    alias: platform-engineering-team
+    channel: standards-general
+    owner: andre.stoicov
+    email: andre.stoicov@ifood.com.br
+spec:
+  contents:
+    - name: my-test
+      description: only testing
+      ownerLayerSlug: stds
+      type: other
+      subType: 
+        - other
+      impactLevel: 0
+      deployment: none
